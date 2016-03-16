@@ -14,7 +14,6 @@ This guide walks you through the process of providing client-side load balancing
 
 You'll build a microservice application that uses Netflix Ribbon and Spring Cloud Netflix to provide client-side load balancing in calls to another microservice.
 
-
 == What you'll need
 
 :java_version: 1.8
