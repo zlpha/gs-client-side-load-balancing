@@ -39,14 +39,14 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 // AsciiDoc source formatting doesn't support groovy, so using java instead
 [source,java]
 ----
-include::https://raw.githubusercontent.com/spring-guides/{project_id}/master/initial/say-hello/build.gradle[]
+include::initial/say-hello/build.gradle[]
 ----
 
 `user/build.gradle`
 // AsciiDoc source formatting doesn't support groovy, so using java instead
 [source,java]
 ----
-include::https://raw.githubusercontent.com/spring-guides/{project_id}/master/initial/user/build.gradle[]
+include::initial/user/build.gradle[]
 ----
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-gradle-plugin.adoc[]
@@ -66,13 +66,13 @@ include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/
 `say-hello/pom.xml`
 [source,xml]
 ----
-include::https://raw.githubusercontent.com/spring-guides/{project_id}/master/initial/say-hello/pom.xml[]
+include::initial/say-hello/pom.xml[]
 ----
 
 `user/pom.xml`
 [source,xml]
 ----
-include::https://raw.githubusercontent.com/spring-guides/{project_id}/master/initial/user/pom.xml[]
+include::initial/user/pom.xml[]
 ----
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/spring-boot-maven-plugin.adoc[]
