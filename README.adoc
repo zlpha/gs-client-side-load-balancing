@@ -277,3 +277,17 @@ Congratulations! You've just developed a Spring application that performs client
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
 
+== AWS Test
+```bash
+cd gs-client-side-load-balancing/complete
+mvn clean package -Dmaven.test.skip
+
+java -jar say-hello/target/say-hello-0.0.1-SNAPSHOT.jar
+curl localhost:8090
+curl localhost:8090/greeting
+java -jar -Dserver.port=9092 say-hello/target/say-hello-0.0.1-SNAPSHOT.jar
+java -jar -Dserver.port=9999 say-hello/target/say-hello-0.0.1-SNAPSHOT.jar
+
+java -jar user/target/user-0.0.1-SNAPSHOT.jar
+curl localhost:8888/hi
+```
